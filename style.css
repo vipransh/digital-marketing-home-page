@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 83vw;
+    margin-top: 20px;
+    justify-content: space-between; 
+}
+.logo-class{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-right: 450px;
+}
+.list > li{
+    margin-inline-start: 20px;
+    cursor: pointer;
+}
+.list{
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(127, 125, 125);
+    font-weight: 400;
+}
+.list >#home{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight:400;
+    color: black;
+}
+.banner-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 90vw;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.heading-text{
+    font-size: 45px;
+    font-family: 'Poppins';
+}
+span{
+    color: #474b92;
+    font-family: 'Poppins';
+}
+.description{
+    font-size: 15px;
+    color: rgb(127, 125, 125);
+    margin-top: 15px;
+    font-family: 'Poppins';
+}
+.nav-button{
+    font-family: 'Poppins';
+    background-color: #474b92;
+    font-size: 11px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.nav-button:hover{
+    background-color: #fff;
+    color: #474b92;
+    border: 2px solid #474b92;
+}
+.btn{
+    font-family: 'Poppins';
+    margin-top: 40px;
+    background-color: #474b92;
+    font-size: 11px;
+    width: 40%;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #474b92;
+    border: 2px solid #474b92;
+}
